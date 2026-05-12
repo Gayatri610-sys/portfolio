@@ -16,6 +16,12 @@ const projects=[
         description:"Web-based UI project for product display.",
         tech:"Java,JDBC,SQL,HTML,CSS,JavaScript",
         github:"https://github.com/Gayatri610-sys/Online-Electronic-Portal"
+    },
+    {
+        title:"Gayatri Portfolio",
+        description:"A modern responsive portfolio website built using React JS and Vite with animations, interactive UI, project showcase, social links.",
+        tech: "React JS, JavaScript, HTML, CSS, Vite",
+        github:"https://github.com/Gayatri610-sys/portfolio"
     }
 ];
 
