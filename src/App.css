@@ -125,10 +125,17 @@ nav a:hover::after {
   gap: 20px;
 }
 
+.project-link{
+  text-decoration: none;
+  color:inherit;
+}
+
 .card {
-  padding: 15px;
+  padding: 20px;
   background: #1e293b;
-  border-radius: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -182,4 +189,17 @@ section {
 .social-icons a:hover {
   transform: scale(1.3);
   color: #0ea5e9;
+}
+
+.github-section{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.github-icon{
+  font-size: 22px;
 }
